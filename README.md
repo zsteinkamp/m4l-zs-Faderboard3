@@ -20,6 +20,12 @@ From there, you can move the faders to trigger playback of the audio at the pitc
 
 You can also change the pan position of each voice with the horizontal slider below each fader.
 
+To make fine adjustments of the loop points, hold down `Shift` while moving the knobs.
+
+The "All Off" button will return all faders to the `-inf Db` position.
+
+The "Restart All" button will force all playing loops to jump back to the beginning of the loop and continue playing.
+
 ## TODO
 
 * Add optional looping.
