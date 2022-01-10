@@ -2,6 +2,10 @@
 
 This is a Max For Live device that seeks to replicate the functionality of the Vestax Faderboard. This device came to my attention via [Hainbach's Video](https://www.youtube.com/watch?v=E1Kr0EJwZ-c), and I was intrigued by the idea that the primary interface to a sample would be a set of faders.
 
+Overall, this is an 8-voice pitched sample-playback device. The sample is triggered for a voice when that voice's fader is moved off of its `-inf Db` position. As long as the fader is above "silent" then the sample will play/loop, with volume controlled by the fader. The sample loop start/end is controlled globally, and if the start > end, then the loop plays backward.
+
+Each voice's pitch and pan position is controlled independently. The pitch played is relative to the global sample "Root Note".
+
 ## Installation
 
 Clone this repository, and drag the `zs-Faderboard3.amxd` device into a MIDI track in Ableton Live.
@@ -18,9 +22,13 @@ You can also change the pan position of each voice with the horizontal slider be
 
 ## TODO
 
-* Implement loop start/end points (with the possibility of reverse if start > end).
 * Add optional looping.
 * Musical scale presets.
+* Timestretch control (global? per-voice?)
+
+## DONE
+
+* Implement loop start/end points (with the possibility of reverse if start > end).
 
 ## Contributing
 
