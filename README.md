@@ -6,6 +6,8 @@ Overall, this is an 8-voice pitched sample-playback device. The sample is trigge
 
 Each voice's pitch and pan position is controlled independently. The pitch played is relative to the global sample "Root Note".
 
+![How it Looks](images/device.png)
+
 ## Installation
 
 Clone this repository, and drag the `zs-Faderboard3.amxd` device into a MIDI track in Ableton Live.
