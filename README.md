@@ -28,15 +28,26 @@ The "All Off" button will return all faders to the `-inf Db` position.
 
 The "Restart All" button will force all playing loops to jump back to the beginning of the loop and continue playing.
 
+## Attention to Detail
+
+* Works with any well designed theme.
+* Good Push / Push2 integration.
+* Includes a touchOSC device definition file.
+* Fully automatable, with sensible and consistent automation names.
+
 ## TODO
 
 * Add optional looping.
 * Musical scale presets.
 * Timestretch control (global? per-voice?)
 
-## DONE
+## Changelog
 
-* Implement loop start/end points (with the possibility of reverse if start > end).
+* 2022-01-15 Proper Push / Push2 integration.
+* 2022-01-11 touchOSC definition file (zs-Faderboard3.tosc)
+* 2022-01-10 Bugfix for mono files, Restart All button
+* 2022-01-09 Implement loop start/end points (with the possibility of reverse if start > end).
+* 2022-01-08 Initial release
 
 ## Contributing
 
