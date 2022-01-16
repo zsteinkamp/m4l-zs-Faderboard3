@@ -43,6 +43,7 @@ The "Restart All" button will force all playing loops to jump back to the beginn
 
 ## Changelog
 
+* 2022-01-16 Allow for multiple instances of the device in one Live Set.
 * 2022-01-15 Proper Push / Push2 integration.
 * 2022-01-11 touchOSC definition file (zs-Faderboard3.tosc)
 * 2022-01-10 Bugfix for mono files, Restart All button
