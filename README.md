@@ -28,6 +28,8 @@ The "All Off" button will return all faders to the `-inf Db` position.
 
 The "Restart All" button will force all playing loops to jump back to the beginning of the loop and continue playing.
 
+The "De-Click" knob will apply a fade at the beginning and end of the loop. The 100% setting can be interesting.
+
 ## Attention to Detail
 
 * Works with any well designed theme.
