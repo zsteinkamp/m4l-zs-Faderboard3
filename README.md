@@ -10,7 +10,7 @@ Each voice's pitch and pan position is controlled independently. The pitch playe
 
 ## Installation
 
-Clone this repository, and drag the `zs-Faderboard3.amxd` device into a MIDI track in Ableton Live.
+[Download the .amxd file](https://github.com/zsteinkamp/m4l-zs-Faderboard3/raw/main/zs-Faderboard3.amxd) or clone this repository, and drag the `zs-Faderboard3.amxd` device into a MIDI track in Ableton Live.
 
 ## Usage
 
