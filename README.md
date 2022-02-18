@@ -49,7 +49,6 @@ To use the individual outputs, create an Audio track, set its monitoring mode to
 
 ## TODO
 
-* Musical scale or interval presets.
 * Timestretch control (global? per-voice?)
 
 ## Changelog
