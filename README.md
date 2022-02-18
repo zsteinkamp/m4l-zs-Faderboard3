@@ -32,6 +32,8 @@ The "Restart All" button will force all playing loops to jump back to the beginn
 
 The "De-Click" knob will apply a fade at the beginning and end of the loop. The 100% setting can be interesting.
 
+Incoming MIDI notes control the pitch of Channel 1.
+
 ## Multi-Channel Output
 
 The first two channels of the device's output are the stereo mix. It also has 10 additional pairs of outputs -- one for each channel. This allows you to process each channel independently, which opens a lot of creative doors.
@@ -52,7 +54,7 @@ To use the individual outputs, create an Audio track, set its monitoring mode to
 
 ## Changelog
 
-* 2022-02-17 Add scale presets + Add individual channel outputs.
+* 2022-02-17 Add scale presets + Add individual channel outputs + MIDI note control.
 * 2022-02-15 De-Click control to avoid clicks at loop boundaries.
 * 2022-01-16 Allow for multiple instances of the device in one Live Set.
 * 2022-01-15 Proper Push / Push2 integration.
