@@ -54,7 +54,7 @@ To use the individual outputs, create an Audio track, set its monitoring mode to
 
 ## Changelog
 
-* 2022-02-17 Add scale presets + Add individual channel outputs + MIDI note control.
+* 2022-02-17 Add scale presets + Add individual channel outputs + MIDI note control + pays attention to Live's transport.
 * 2022-02-15 De-Click control to avoid clicks at loop boundaries.
 * 2022-01-16 Allow for multiple instances of the device in one Live Set.
 * 2022-01-15 Proper Push / Push2 integration.
