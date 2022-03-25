@@ -676,8 +676,8 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "9_Scaled_Note",
-							"parameter_shortname" : "#1_Scaled_Note",
+							"parameter_longname" : "#1_Scaled_Note",
+							"parameter_shortname" : "#1 Scaled Note",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
 						}
@@ -1896,7 +1896,9 @@
 								}
 
 							}
- ]
+ ],
+						"bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
+						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 440.0, 635.5, 109.5, 22.0 ],
@@ -1932,8 +1934,8 @@
 							"parameter_initial" : [ 60 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "9_Note",
-							"parameter_shortname" : "#1_Note",
+							"parameter_longname" : "#1_Note",
+							"parameter_shortname" : "#1 Note",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
 						}
@@ -1961,10 +1963,10 @@
 						"valueof" : 						{
 							"parameter_info" : "Sets the panning position for this voice.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "9_Pan",
+							"parameter_longname" : "#1_Pan",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : -64.0,
-							"parameter_shortname" : "#1_Pan",
+							"parameter_shortname" : "#1 Pan",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 6
 						}
@@ -1997,10 +1999,10 @@
 							"parameter_initial" : [ -70 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "9_Gain",
+							"parameter_longname" : "#1_Gain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "#1_Gain",
+							"parameter_shortname" : "#1 Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -2016,11 +2018,11 @@
 				"box" : 				{
 					"comment" : "Note Value",
 					"id" : "obj-96",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.89285714285711, 343.0, 30.0, 30.0 ],
 					"varname" : "noteval"
 				}
@@ -2335,7 +2337,28 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-48" : [ "#1_Scaled_Note", "#1 Scaled Note", 0 ],
+			"obj-50" : [ "#1_Note", "#1 Note", 0 ],
+			"obj-79" : [ "#1_Pan", "#1 Pan", 0 ],
+			"obj-82" : [ "#1_Gain", "#1 Gain", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "transratio.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
