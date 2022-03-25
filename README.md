@@ -10,7 +10,7 @@ Each voice's pitch and pan position is controlled independently. The pitch playe
 
 ## Installation
 
-[Download the .amxd file](https://github.com/zsteinkamp/m4l-zs-Faderboard3/raw/main/zs-Faderboard3.amxd) or clone this repository, and drag the `zs-Faderboard3.amxd` device into a MIDI track in Ableton Live.
+[Download the newest .amxd file from the frozen/ directory](https://github.com/zsteinkamp/m4l-zs-Faderboard3/tree/main/frozen/) or clone this repository, and drag the `zs-Faderboard3.amxd` device into a MIDI track in Ableton Live.
 
 ## Usage
 
@@ -53,6 +53,7 @@ To use the individual outputs, create an Audio track, set its monitoring mode to
 
 ## Changelog
 
+* 2022-03-25 Release 1.0.0 - Big under-the-hood update. Remove MIDI note control (was annoying). Frozen releases.
 * 2022-02-17 Add scale presets + Add individual channel outputs + MIDI note control + pays attention to Live's transport.
 * 2022-02-15 De-Click control to avoid clicks at loop boundaries.
 * 2022-01-16 Allow for multiple instances of the device in one Live Set.
