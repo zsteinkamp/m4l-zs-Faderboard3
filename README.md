@@ -1,8 +1,8 @@
 # zs-Faderboard3
 
-This is a Max For Live device that seeks to replicate the functionality of the Vestax Faderboard. This device came to my attention via [Hainbach's Video](https://www.youtube.com/watch?v=E1Kr0EJwZ-c), and I was intrigued by the idea that the primary interface to a sample would be a set of faders.
+This is a Max For Live device that seeks to replicate the functionality of the Vestax Faderboard. This device came to my attention via [Hainbach's Video](https://www.youtube.com/watch?v=E1Kr0EJwZ-c), and I was intrigued by the idea that the primary interface to a sampler would be a set of faders.
 
-Overall, this is an 10-voice pitched sample-playback device. The sample is triggered for a voice when that voice's fader is moved off of its `-inf Db` position. As long as the fader is above "silent" then the sample will play/loop, with volume controlled by the fader. The sample loop start/end is controlled globally, and if the start > end, then the loop plays backward.
+Overall, this is an 10-voice pitched sample-playback device. The sample is triggered for a voice when that voice's fader is moved off of its `-inf Db` position. As long as the fader is above "silent" then the sample will play/loop, with volume controlled by the fader. The sample loop start/end point is controlled globally, and if the start comes after the end, then the loop plays backward.
 
 Each voice's pitch and pan position is controlled independently. The pitch played is relative to the global sample "Root Note".
 
@@ -40,28 +40,33 @@ The first two channels of the device's output are the stereo mix. It also has 10
 
 To use the individual outputs, create an Audio track, set its monitoring mode to "In", and set its input to the Faderboard track, with the specific output selected. For example, output channels 3/4 correspond to Faderboard Channel 1, since output channels 1/2 are the stereo mix.
 
+This image shows two audio tracks, outputting audio from Faderboard channels 1 and 2 respectively.
+
+![Individual Channels](images/multichannel.png)
+
 ## Attention to Detail
 
-* Works with any well designed theme.
-* Good Push / Push2 integration.
-* Includes a touchOSC device definition file.
-* Fully automatable, with sensible and consistent automation names.
+- Works with any well designed theme.
+- Good Push / Push2 integration.
+- Includes a touchOSC device definition file.
+- Fully automatable, with sensible and consistent automation names.
 
 ## TODO
 
-* Timestretch control (global? per-voice?)
+- Timestretch control (global? per-voice?)
 
 ## Changelog
 
-* 2022-03-25 Release 1.0.0 - Big under-the-hood update. Remove MIDI note control (was annoying). Frozen releases.
-* 2022-02-17 Add scale presets + Add individual channel outputs + MIDI note control + pays attention to Live's transport.
-* 2022-02-15 De-Click control to avoid clicks at loop boundaries.
-* 2022-01-16 Allow for multiple instances of the device in one Live Set.
-* 2022-01-15 Proper Push / Push2 integration.
-* 2022-01-11 touchOSC definition file (zs-Faderboard3.tosc)
-* 2022-01-10 Bugfix for mono files, Restart All button
-* 2022-01-09 Implement loop start/end points (with the possibility of reverse if start > end).
-* 2022-01-08 Initial release
+- 2024-08-05 Release 2 - Major changes under-the-hood to fix CPU usage, add presets, add loop start/end swap, and fix bugs related to having multiple Faderboard instances in one set. Thanks Mordio for the interest and problem report!
+- 2022-03-25 Release 1.0.0 - Big under-the-hood update. Remove MIDI note control (was annoying). Frozen releases.
+- 2022-02-17 Add scale presets + Add individual channel outputs + MIDI note control + pays attention to Live's transport.
+- 2022-02-15 De-Click control to avoid clicks at loop boundaries.
+- 2022-01-16 Allow for multiple instances of the device in one Live Set.
+- 2022-01-15 Proper Push / Push2 integration.
+- 2022-01-11 touchOSC definition file (zs-Faderboard3.tosc)
+- 2022-01-10 Bugfix for mono files, Restart All button
+- 2022-01-09 Implement loop start/end points (with the possibility of reverse if start > end).
+- 2022-01-08 Initial release
 
 ## Contributing
 
