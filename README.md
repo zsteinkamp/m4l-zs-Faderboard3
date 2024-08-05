@@ -54,6 +54,7 @@ This image shows two audio tracks, outputting audio from Faderboard channels 1 a
 ## TODO
 
 - Timestretch control (global? per-voice?)
+- Use Ableton global scale instead of Faderboard presets
 
 ## Changelog
 
