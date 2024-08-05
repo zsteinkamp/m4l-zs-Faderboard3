@@ -6,7 +6,7 @@ Overall, this is an 10-voice pitched sample-playback device. The sample is trigg
 
 Each voice's pitch and pan position is controlled independently. The pitch played is relative to the global sample "Root Note".
 
-![How it Looks](images/device.png)
+![How it Looks](images/device.gif)
 
 ## Installation
 
