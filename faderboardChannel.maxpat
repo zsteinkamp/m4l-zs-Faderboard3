@@ -72,7 +72,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 131.0, 516.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"#1_Gain" : [ -15.312499999999998 ],
+						"#1_Gain" : [ -15.3125 ],
 						"#1_Note" : [ 60.0 ],
 						"#1_Pan" : [ 0.0 ],
 						"#1_Scaled_Note" : [ 60.0 ]
@@ -2597,7 +2597,7 @@
 							"parameter_longname" : "#1_Note",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "#1 Note",
-							"parameter_type" : 0,
+							"parameter_type" : 1,
 							"parameter_unitstyle" : 8
 						}
 
