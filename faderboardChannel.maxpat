@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1122.0, 397.0, 1503.0, 1050.0 ],
+		"rect" : [ 173.0, 101.0, 1008.0, 972.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-19",
@@ -71,7 +72,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 131.0, 516.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"#1_Gain" : [ -70.0 ],
+						"#1_Gain" : [ -15.312499999999998 ],
 						"#1_Note" : [ 60.0 ],
 						"#1_Pan" : [ 0.0 ],
 						"#1_Scaled_Note" : [ 60.0 ]
@@ -807,7 +808,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 361.0, 405.5, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 15.0 ],
+					"presentation_rect" : [ -1.0, -1.0, 42.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.live_control_bg"
@@ -849,7 +850,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2586,7 +2587,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 440.0, 375.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 15.0 ],
+					"presentation_rect" : [ 0.0, -1.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_info" : "Sets the pitch for this voice, relative to the Root Note setting.",
@@ -2618,7 +2619,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 312.0, 525.5, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 103.0, 50.0, 18.0 ],
+					"presentation_rect" : [ -5.0, 74.0, 50.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_info" : "Sets the panning position for this voice.",
@@ -2643,6 +2644,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Sets the loudness for this voice. The sample is retriggered when the fader is moved up from the \"-inf Db\" setting.",
+					"display_range" : [ -70.0, 3.0 ],
 					"id" : "obj-82",
 					"lastchannelcount" : 0,
 					"maxclass" : "live.gain~",
@@ -2653,7 +2655,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 450.0, 686.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 16.0, 50.0, 87.0 ],
+					"presentation_rect" : [ 0.0, 14.0, 40.0, 60.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_info" : "Sets the loudness for this voice. The sample is retriggered when the fader is moved up from the \"-inf Db\" setting.",
