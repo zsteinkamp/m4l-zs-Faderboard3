@@ -14,7 +14,7 @@ Each voice's pitch and pan position is controlled independently. The pitch playe
 
 ## Changelog
 
-- 2024-10-16 [v3](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/tag/v3) - Revamped UI to consume less space. Thanks `Jessin Boumaza` for the idea and mockups!
+- 2024-10-16 [v3](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/tag/v3) - Revamped UI to consume less space. Thanks `Jessin Boumaza` for the idea and mockups! Added "Octaves" mode.
 - 2024-08-05 [v2](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/tag/v2.2) - Major changes under-the-hood to fix CPU usage, add presets, add loop start/end swap, and fix bugs related to having multiple Faderboard instances in one set. Thanks [Mordio](https://www.youtube.com/@mordiomusic) for the interest and problem report!
 - 2022-03-25 Release 1.0.0 - Big under-the-hood update. Remove MIDI note control (was annoying). Frozen releases.
 - 2022-02-17 Add scale presets + Add individual channel outputs + MIDI note control + pays attention to Live's transport.
