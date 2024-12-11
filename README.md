@@ -14,6 +14,7 @@ Each voice's pitch and pan position is controlled independently. The pitch playe
 
 ## Changelog
 
+- 2024-12-10 [v6](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/download/v6/zs-Faderboard3-v6.amxd) - Small fixes and improvements.
 - 2024-10-30 [v5](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/download/v5/zs-Faderboard3-v5.amxd) - Fix volume slider range/response by fixing the Exponent property; Better [live.banks]. Thanks again to `Jessin Boumaza` for the bug reports and suggestions!
 - 2024-10-29 [v4](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/download/v4/zs-Faderboard3-v4.amxd) - Add non-blocking telemetry ping on load. Does not send any identifying information, only the plugin name, the local computer name, type of computer, and CPU type. I just want to see which plugins are used the most.
 - 2024-10-16 [v3](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/download/v3/zs-Faderboard3-v3.amxd) - Revamped UI to consume less space. Thanks `Jessin Boumaza` for the idea and mockups! Added "Octaves" mode.
