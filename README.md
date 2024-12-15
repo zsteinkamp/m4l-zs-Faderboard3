@@ -2,11 +2,11 @@
 
 This is a Max For Live device that seeks to replicate the functionality of the Vestax Faderboard. This device came to my attention via [Hainbach's Video](https://www.youtube.com/watch?v=E1Kr0EJwZ-c), and I was intrigued by the idea that the primary interface to a sampler would be a set of faders.
 
+![How it Looks](images/device.gif)
+
 Overall, this is an 10-voice pitched sample-playback device. The sample is triggered for a voice when that voice's fader is moved off of its `-inf Db` position. As long as the fader is above "silent" then the sample will play/loop, with volume controlled by the fader. The sample loop start/end point is controlled globally, and if the start comes after the end, then the loop plays backward.
 
 Each voice's pitch and pan position is controlled independently. The pitch played is relative to the global Sample Root.
-
-![How it Looks](images/device.gif)
 
 ## Installation
 
