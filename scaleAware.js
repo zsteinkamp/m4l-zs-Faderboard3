@@ -3,7 +3,7 @@ outlets = 1;
 autowatch = true;
 
 var state = {
-  startNote: 0,
+  startNote: 60,
   scaleAware: 1,
   noteIncr: 1
 }
