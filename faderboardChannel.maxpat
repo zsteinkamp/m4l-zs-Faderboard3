@@ -146,7 +146,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 170.0, 23.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"#1_Gain" : [ -22.891658690637094 ],
+						"#1_Gain" : [ -12.799995999999997 ],
 						"#1_Note" : [ 60.0 ],
 						"#1_Pan" : [ 0.0 ],
 						"#1_Scaled_Note" : [ 60.0 ]
@@ -2906,7 +2906,6 @@
 					"presentation_rect" : [ 0.0, 14.0, 40.0, 75.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_exponent" : 0.25,
 							"parameter_info" : "Sets the loudness for this voice. The sample is retriggered when the fader is moved up from the \"-inf Db\" setting.",
 							"parameter_initial" : [ -70 ],
 							"parameter_initial_enable" : 1,
