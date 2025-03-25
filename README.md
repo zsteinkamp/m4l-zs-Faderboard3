@@ -4,7 +4,7 @@ This is a Max For Live device that seeks to replicate the functionality of the V
 
 ![How it Looks](images/device.gif)
 
-Overall, this is an 10-voice pitched sample-playback device. The sample is triggered for a voice when that voice's fader is moved off of its `-inf Db` position. As long as the fader is above "silent" then the sample will play/loop, with volume controlled by the fader. The sample loop start/end point is controlled globally, and if the start comes after the end, then the loop plays backward.
+Overall, this is an 10-voice pitched sample-playback device. The sample is triggered for a voice when the transport is running and that voice's fader is moved off of its `-inf Db` position. As long as the fader is above "silent" then the sample will play/loop, with volume controlled by the fader. The sample loop start/end point is controlled globally, and if the start comes after the end, then the loop plays backward.
 
 Each voice's pitch and pan position is controlled independently. The pitch played is relative to the global Sample Root.
 
@@ -35,6 +35,8 @@ Each voice's pitch and pan position is controlled independently. The pitch playe
 The device needs an audio file to play, so you will need to drag a file or an audio clip onto the section of the device labeled "Drop Audio Here".
 
 Next, set the root note of the sample.
+
+Press Play in Ableton Live.
 
 From there, you can move the faders to trigger playback of the audio at the pitch indicated above the fader.
 
