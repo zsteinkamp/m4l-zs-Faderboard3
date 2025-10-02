@@ -14,6 +14,7 @@ Each voice's pitch and pan position is controlled independently. The pitch playe
 
 ## Changelog
 
+- 2025-10-01 [v8](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/download/v8/zs-Faderboard3-v8.amxd) - Version update checks. Friendly help popup.
 - 2024-12-21 [v7](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/download/v7/zs-Faderboard3-v7.amxd) - Scale awareness! MIDI Input! Portamento! These really transform this into a performance powerhouse.
 - 2024-12-10 [v6](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/download/v6/zs-Faderboard3-v6.amxd) - Small fixes and improvements.
 - 2024-10-30 [v5](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases/download/v5/zs-Faderboard3-v5.amxd) - Fix volume slider range/response by fixing the Exponent property; Better [live.banks]. Thanks again to `Jessin Boumaza` for the bug reports and suggestions!
